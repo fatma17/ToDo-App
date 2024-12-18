@@ -1,0 +1,30 @@
+<odoo>
+
+    <record id="todo_groups" model="ir.module.category">
+        <field name="name"> Groups </field>
+    </record>
+
+
+    <record id="todo_manager_group" model="res.groups">
+        <field name="name">ToDo Manager</field>
+        <field name="category_id" ref="todo_app.todo_groups"/>
+    </record>
+
+    <record id="todo_user_group" model="res.groups">
+        <field name="name">ToDo User</field>
+        <field name="category_id" ref="todo_app.todo_groups"/>
+    </record>
+
+
+    <record id="todo_user_rule" model="ir.rule">
+        <field name="name">ToDo User Rule</field>
+        <field name="model_id" ref="todo_app.model_todo_task"/>
+        <field name="domain_force">['|',('create_uid', '=', user.id),('assign_to_id', '=', user.id)]</field>
+        <field name="groups" eval="[(4,ref('todo_user_group'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="0"/>
+    </record>
+
+</odoo>

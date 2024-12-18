@@ -1,0 +1,3 @@
+<odoo>
+    <menuitem id="todo_root_menu" name="To-Do"/>
+</odoo>

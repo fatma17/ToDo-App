@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record id="todo_sequence" model="ir.sequence">
+            <field name="name">ToDo seq</field>
+            <field name="code">todo_seq</field>
+            <field name="prefix">TS</field>
+            <field name="padding">10</field>
+
+        </record>
+
+    </data>
+</odoo>

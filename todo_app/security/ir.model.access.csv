@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_todo_user,access_todo_user,model_todo_task,,1,1,1,0
+access_todo,access_todo,model_todo_task,todo_app.todo_manager_group,1,1,1,1
+access_time_sheet,access_time_sheet,model_time_sheet,,1,1,1,1
+access_assign_task,access_assign_task,model_assign_task,,1,1,1,1
