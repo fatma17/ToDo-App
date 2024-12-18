@@ -5,8 +5,6 @@ This is a **custom Odoo module** for managing To-Do tasks. The module demonstrat
 ## Technical Concepts  
 The project implements the following Odoo development features:
 
-- **Custom Models:** Define tasks and their relationships, including fields like `name`, `description`, `status`, `due date`.
-
 - **Tree and Form Views:** Customized user-friendly views for managing tasks.
 
 - **Search view:** Enhanced search with filters and groupings. Filter tasks by `status` and group by `status`, `Due Date`.
