@@ -13,8 +13,6 @@ The project implements the following Odoo development features:
    
 - **Chatter Integration:** Track task history and add comments.
 
-- **Lines:** Support for subtasks (One2many relationship).  
-
 - **Automated Actions:** for triggering specific behaviors, such as `Mark tasks if the due date is passed`.
 
 - **Report Actions:** Generate PDF reports for tasks.
