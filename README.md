@@ -7,7 +7,7 @@ The project implements the following Odoo development features:
 
 - **Tree and Form Views:** Customized user-friendly views for managing tasks.
 
-- **Search view:** Enhanced search with filters and groupings. Filter tasks by `status` and group by `status`, `Due Date`.
+- **Search view:** Enhanced search with filters and groupings.
 
 - **Workflows:** Manage task status transitions `New → In Progress → Completed → Closed`.
    
