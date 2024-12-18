@@ -1,4 +1,4 @@
-# To-Do App (Odoo Custom Module)
+# To-Do App 
 ## Overview
 This is a **custom Odoo module** for managing To-Do tasks. The module demonstrates essential development concepts in Odoo, including model creation, inheritance, workflow management, security rules, and more.
 
