@@ -25,3 +25,4 @@ The project implements the following Odoo development features:
      >- **Managers**: Full access to create, edit, and delete tasks.
      >- **Users**: Restricted to view only their assigned tasks.
 
+- **API:** Implemented API CRUD operations to allow external systems to integrate with the app.
